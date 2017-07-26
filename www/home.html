@@ -1,0 +1,27 @@
+<html>
+<body>
+      <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Blank App</title>
+         <script type="text/javascript" charset="utf-8" src="cordova-1.5.0.js"></script> 
+         <script type="text/javascript">
+     
+        function myFunction() {
+            localStorage.clear();
+             window.location.href = 'index.html';
+             /*sessionStorage.clear();
+              /*alert(localStorage.getItem("name"));*/
+              
+            /*  alert(name);*/
+}
+        </script>
+         <div class="app">
+<h1>Welcome Home</h1>
+
+<input type="submit" name="btn" value="logout" onclick="myFunction()" style="float:right">
+</div>
+</body>
+
+ <script type="text/javascript" src="cordova.js"></script>
+ <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</html>
